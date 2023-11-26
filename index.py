@@ -35,12 +35,12 @@ plt.show()
 
 # relation between year of graduation and hours of study per week
 sns.countplot(x=labels["yearOfGraduation"], hue=labels["studyHours"], data=data)
-plt.title("Relação entre Ano da graduação e Horas de estudo por semana")
+plt.title("Relação entre ano da graduação e horas de estudo por semana")
 plt.savefig("graphs/relacao-ano-de-graduacao-e-horas-de-estudos.png")
 plt.show()
 
 # relation between age and hours of study per week
 sns.countplot(x=labels["age"], hue=labels["studyHours"], data=data)
-plt.title("Relação entre Idade e Horas de estudo por semana")
+plt.title("Relação entre idade e horas de estudo por semana")
 plt.savefig("graphs/relacao-idade-e-horas-de-estudos.png")
 plt.show()
